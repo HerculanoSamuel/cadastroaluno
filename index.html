@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro curso</title>
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form>
+            <label for="campo_nome" id="campo_nome">Nome:</label>
+            <input type="text" id="campo_nome" name="campo_nome" placeholder="Digite seu nome" required>
+
+            <label for="campo_sobrenome" id="campo_sobrenome">Sobrenome:</label>
+            <input type="text" id="campo_sobrenome" name="campo_sobrenome" placeholder="Digite seu sobrenome" required><br><br>
+
+            <label for="campo_email" id="campo_email">E-mail:</label>
+            <input type="email" id="campo_email" name="campo_email" placeholder="Digite seu E-mail" required>
+
+            <label for="campo_endereco" id="campo_endereco">Endereço:</label>
+            <input type="text" id="campo_endereço" name="campo_endereço" placeholder="Digite seu Endereço" required><br><br>
+
+            <label for="campo_cidade" id="campo_cidade">Cidade:</label>
+            <input type="text" id="campo_cidade" name="campo_cidade" placeholder="Digite seu Cidade" required>
+
+            <label for="campo_estado" id="campo_endereco">Estado:</label>
+            <input type="text" id="campo_estado" name="campo_estado" placeholder="Digite seu Estado" required><br><br>
+
+            <label for="campo_cep" id="campo_cep">CEP:</label>
+            <input type="number" id="campo_cep" name="campo_cep" placeholder="Digite seu CEP" required>
+
+            <label for="campo_tel" id="campo_tel">Telefone:</label>
+            <input type="number" id="campo_tel" name="campo_tel" placeholder="Digite seu Telefone" required><br><br>
+
+            <h2>Em qual área gostaria de fazer curso?</h2>
+            <select name="cursos">
+                <option selected disabled value="">Selecione o curso desejado</option>
+                <option value="metalurgico">Metalurgico</option>
+                <option value="pedreiro">Pedreiro</option>
+                <option value="jardineiro">Jardineiro</option>
+                <option value="pintor">Pintor</option>
+            </select><br><br>
+
+            <input type="reset" value="Limpar texto">
+            <input type="submit" value="Enviar">
+       
+    </form>
+</body>
+</html>
